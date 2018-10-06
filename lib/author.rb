@@ -20,6 +20,7 @@ class Author
     @posts << post 
     @@posts << post
     post.author=self
+    post.author_name=name
   end
   
   def self.post_count
