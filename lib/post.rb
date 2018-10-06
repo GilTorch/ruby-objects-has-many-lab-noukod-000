@@ -7,4 +7,10 @@ class Post
     @title=title
     @@all << self
   end
+  
+  def author_name
+    @author.name
+  end
+  
+  
 end
